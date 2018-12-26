@@ -82,7 +82,7 @@ class Navbar extends Component {
             </Link>
             <a
               role="button"
-              className={menuOpen ? "navbar-burger" : "navbar-burger"}
+              className={menuOpen ? "navbar-burger is-active" : "navbar-burger"}
               aria-label="menu"
               aria-expanded="false"
               onClick={this.toggleMobile}
