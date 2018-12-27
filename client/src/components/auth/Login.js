@@ -58,7 +58,7 @@ class Login extends Component {
             <div className="column is-6 is-offset-3">
               <h1 className="title is-3 text-center">Log In</h1>
               <p className="subtitle is-5">
-                Sign in to your Developer hub account
+                Sign in to your Developer Hub account
               </p>
               <figure className="highlight">
                 <pre>

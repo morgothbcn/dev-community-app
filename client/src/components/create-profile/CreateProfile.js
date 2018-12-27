@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
@@ -72,7 +72,7 @@ class CreateProfile extends Component {
 
     if (displaySocialInputs) {
       socialInputs = (
-        <div>
+        <Fragment>
           <InputGroup
             placeholder="Twitter Profile URL"
             name="twitter"
@@ -117,7 +117,7 @@ class CreateProfile extends Component {
             onChange={this.onChange}
             error={errors.instagram}
           />
-        </div>
+        </Fragment>
       );
     }
 
